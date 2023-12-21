@@ -1,6 +1,6 @@
 {
   "name": "create-s4-bot",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Easily create Discord bots with discord.js + sapphire",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "prepublish": "ncp src/templates dist/templates"
   },
   "bin": {
-    "create-s4-bot": "node ./dist/index.js"
+    "create-s4-bot": "./dist/index.js"
   },
   "keywords": [
     "discord",

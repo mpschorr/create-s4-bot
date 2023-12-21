@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import chalk from 'chalk';
 import cp from 'child_process';
 import fs from 'fs';
