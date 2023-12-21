@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "db:generate": "drizzle-kit generate:sqlite",
+        "db:migrate": "tsx ./src/db/migrate.ts",
+        "db:studio": "drizzle-kit studio"
+    },
+    "dependencies": {
+        "drizzle-orm": "^0.29.1",
+        "better-sqlite3": "^9.2.2"
+    },
+    "devDependencies": {
+        "@types/better-sqlite3": "^7.6.8",
+        "drizzle-kit": "^0.20.7",
+        "tsx": "^4.7.0"
+    }
+}

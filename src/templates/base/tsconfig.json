@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"outDir": "dist",
+		"rootDir": "src",
+		"skipLibCheck": true
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "dist"],
+	"extends": ["@sapphire/ts-config", "@sapphire/ts-config/decorators", "@sapphire/ts-config/extra-strict"]
+}
