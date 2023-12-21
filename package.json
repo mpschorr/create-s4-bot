@@ -9,6 +9,9 @@
     "build": "tsc",
     "prepublish": "ncp src/templates dist/templates"
   },
+  "bin": {
+    "create-s4-bot": "./dist/index.js"
+  },
   "keywords": [
     "discord",
     "discord.js",
