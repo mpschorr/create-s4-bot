@@ -1,4 +1,4 @@
-# create-s4-app
+# create-s4-bot
 
 An easy CLI for creating Discord bots with discord.js + Sapphire.
 
@@ -23,13 +23,13 @@ _Inspired by create-t3-app and create-o7-app_
 **npm**
 
 ```
-npm create s4-app@latest
+npm create s4-bot@latest
 ```
 
 **yarn**
 
 ```
-yarn create s4-app
+yarn create s4-bot
 ```
 
 _Sapphire does not support pnpm, sorry D:_
